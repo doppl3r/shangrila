@@ -22,14 +22,14 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .nav #item5 { left: 960px; }
 .nav #item6 { left: 1080px; }
 
-.owl-carousel.one .owl-prev { position: absolute; left: 224px; top: 230px; background-image: url('../img/left-arrow.png'); width:33px; height:68px; opacity: .75; }
-.owl-carousel.one .owl-next { position: absolute; left: 1080px; top: 230px; background-image: url('../img/right-arrow.png'); width:33px; height:68px; opacity: .75; }
+.owl-carousel.one .owl-prev { position: absolute; left: 212px; top: 230px; background-image: url('../img/left-arrow.png'); width:33px; height:68px; opacity: .75; }
+.owl-carousel.one .owl-next { position: absolute; left: 1136px; top: 230px; background-image: url('../img/right-arrow.png'); width:33px; height:68px; opacity: .75; }
 
 .section1 { position: relative; }
 .section1 > img { position: absolute; top: 0px; left: 0px; z-index: -1;}
 .section1 .full-width {width: 100%;}
-.section1 h1 { font-size: 88px; color: 5d4f3d; text-transform: uppercase; line-height: 64px; }
-.section1 h4 { font-size: 34px; color: 5d4f3d; }
+.section1 h1 { font-size: 88px; color: #5d4f3d; text-transform: uppercase; line-height: 64px; }
+.section1 h4 { font-size: 34px; color: #5d4f3d; }
 .section1 ul { font-family: 'gearedslab-light'; font-size: 19px; color: 5d4f3d; padding: 18px 0px 24px 18px; }
 .section1 .button { display: block; color: #FFF; background-color: #5d4f3d; font-size: 21px; font-family: 'gearedslab'; padding: 8px 0px 4px; text-align: center; text-transform: uppercase; text-decoration: none; border-radius: 4px; border-top: 2px solid #6b5e4e; border-right: 2px solid #6b5e4e; border-bottom: 2px solid #565246; border-left: 2px solid #565246; }
 .section1 .button:hover { opacity: 0.5; }
@@ -39,10 +39,26 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .owl-carousel.two .owl-stage-outer { border-radius: 7px; }
 .owl-carousel.two .owl-prev { position: absolute; left: 12px; top: 130px; background-image: url('../img/left-arrow-small.png'); width:20px; height:41px; }
 .owl-carousel.two .owl-next { position: absolute; right: 12px; top: 130px; background-image: url('../img/right-arrow-small.png'); width:20px; height:41px; }
-.owl-carousel.two .owl-dots { text-align: right; margin-top: 16px; }
+.owl-carousel.two .owl-dots { text-align: right; margin-top: 16px; margin-bottom: 96px; }
 .owl-carousel.two .owl-dot { display: inline-block;}
 .owl-carousel.two .owl-dot span { display: inline-block; height: 14px; width: 14px; background-color: #7a705a; border-radius: 50%; margin-left: 4px; }
 .owl-carousel.two .owl-dot.active span { background-color: #84311d; }
+
+.section2 { position: relative; }
+.section2 .owl-carousel .item { height: 536px; }
+.section2 .owl-carousel .item > img { position: absolute; top: 0px; left: 0px; z-index: -1; }
+.section2 .full-width {width: 100%;}
+.section2 h1 { font-size: 88px; color: #FFF; text-transform: uppercase; line-height: 64px; margin: 112px 0px 32px; text-shadow: 0px 0px 50px #000 }
+.section2 p { font-size: 19px; color: #5d4f3d; font-family: 'gearedslab-light'; margin-bottom: 24px; }
+.section2 .button { display: block; color: #FFF; background-color: #5d4f3d; font-size: 21px; font-family: 'gearedslab'; padding: 8px 0px 4px; margin: 18px 0px 0px; text-align: center; text-transform: uppercase; text-decoration: none; border-radius: 4px; border-top: 2px solid #6b5e4e; border-right: 2px solid #6b5e4e; border-bottom: 2px solid #565246; border-left: 2px solid #565246; }
+.section2 .button:hover { opacity: 0.5; }
+.section2 .left { display: inline-block; margin-right: -4px; width: 50%; padding-left: 12px; padding-right: 24px; }
+.section2 .right { display: inline-block; width: 50%; vertical-align: top; padding-right: 36px; padding-left: 24px; text-align: right; }
+.section2 .right > img { margin: 64px 0px 12px; }
+.section2 .white { color: #FFF; }
+.section2 .right .right { padding: 0px; }
+.owl-carousel.three .owl-prev { position: absolute; left: 212px; top: 230px; background-image: url('../img/left-arrow.png'); width:33px; height:68px; opacity: .75; }
+.owl-carousel.three .owl-next { position: absolute; left: 1136px; top: 230px; background-image: url('../img/right-arrow.png'); width:33px; height:68px; opacity: .75; }
 
 @media(max-width:1370px){  }
 @media(max-width:960px){  }
