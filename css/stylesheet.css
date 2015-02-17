@@ -60,6 +60,25 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .owl-carousel.three .owl-prev { position: absolute; left: 212px; top: 230px; background-image: url('../img/left-arrow.png'); width:33px; height:68px; opacity: .75; }
 .owl-carousel.three .owl-next { position: absolute; left: 1136px; top: 230px; background-image: url('../img/right-arrow.png'); width:33px; height:68px; opacity: .75; }
 
+.section3 { position: relative; }
+.section3 > img { position: absolute; top: 0px; left: 0px; z-index: -1;}
+.section3 .full-width {width: 100%;}
+.section3 h1 { font-size: 88px; color: #5d4f3d; text-transform: uppercase; line-height: 64px; margin-top: 64px; }
+.section3 h4 { font-size: 34px; color: #5d4f3d; margin-bottom: 16px; }
+.section3 ul { font-family: 'gearedslab-light'; font-size: 19px; color: 5d4f3d; padding: 18px 0px 24px 18px; }
+.section3 .button { display: block; color: #FFF; background-color: #5d4f3d; font-size: 21px; font-family: 'gearedslab'; padding: 8px 0px 4px; text-align: center; text-transform: uppercase; text-decoration: none; border-radius: 4px; border-top: 2px solid #6b5e4e; border-right: 2px solid #6b5e4e; border-bottom: 2px solid #565246; border-left: 2px solid #565246; }
+.section3 .button:hover { opacity: 0.5; }
+.section3 .left { display: inline-block; margin-right: -4px; width: 50%; padding-left: 12px; }
+.section3 .right { display: inline-block; width: 50%; vertical-align: top; padding-right: 12px; padding-left: 24px; text-align: left; }
+.section3 .right > img { margin: 64px 0px 12px 48px; padding-bottom: 24px; border-bottom: 1px solid #c0baac; }
+.owl-carousel.four .owl-stage-outer { border-radius: 7px; }
+.owl-carousel.four .owl-prev { position: absolute; left: 12px; top: 130px; background-image: url('../img/left-arrow-small.png'); width:20px; height:41px; }
+.owl-carousel.four .owl-next { position: absolute; right: 12px; top: 130px; background-image: url('../img/right-arrow-small.png'); width:20px; height:41px; }
+.owl-carousel.four .owl-dots { text-align: left; margin-top: 16px; margin-bottom: 96px; }
+.owl-carousel.four .owl-dot { display: inline-block;}
+.owl-carousel.four .owl-dot span { display: inline-block; height: 14px; width: 14px; background-color: #7a705a; border-radius: 50%; margin-left: 4px; }
+.owl-carousel.four .owl-dot.active span { background-color: #84311d; }
+
 @media(max-width:1370px){  }
 @media(max-width:960px){  }
 @media(max-width:800px){  }
