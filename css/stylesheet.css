@@ -102,7 +102,7 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .section5 .button:hover { opacity: 0.5; }
 .section5 .left { display: inline-block; margin-right: -4px; width: 50%; padding-left: 48px; }
 .section5 .right { display: inline-block; width: 50%; vertical-align: top; padding-right: 12px; padding-left: 24px; text-align: left; }
-.section5 .right > img { margin: 0px 0px 24px 0px; padding-bottom: 24px;  }
+.section5 .right > img { margin: 0px 0px 24px 0px; padding-bottom: 24px; width: 480px;  }
 
 .section6 { position: relative; height: 584px; }
 .section6 > img { position: absolute; top: 0px; left: 0px; z-index: -1;}
