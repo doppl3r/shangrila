@@ -73,7 +73,7 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .section3 .left { display: inline-block; margin-right: -4px; width: 50%; padding-left: 12px; }
 .section3 .right { display: inline-block; width: 50%; vertical-align: top; padding-right: 12px; padding-left: 24px; text-align: left; }
 .section3 .right > img { margin: 64px 0px 12px; padding-bottom: 24px; }
-.owl-carousel.four .owl-stage-outer { border-radius: 7px; }
+.owl-carousel.four .owl-stage-outer { border-radius: 7px; box-shadow: 0px 1px 3px rgba(0,0,0,0.15); }
 .owl-carousel.four .owl-prev { position: absolute; left: 12px; top: 130px; background-image: url('../img/left-arrow-small.png'); width:20px; height:41px; }
 .owl-carousel.four .owl-next { position: absolute; right: 12px; top: 130px; background-image: url('../img/right-arrow-small.png'); width:20px; height:41px; }
 .owl-carousel.four .owl-dots { text-align: left; margin-top: 16px; margin-bottom: 96px; }
