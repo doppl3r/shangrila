@@ -109,7 +109,7 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .section6 { position: relative; height: 584px; }
 .section6 > img { position: absolute; top: 0px; left: 0px; z-index: -1;}
 .section6 .full-width {width: 100%;}
-.section6 h1 { font-size: 74px; color: #5d4f3d; text-transform: uppercase; line-height: 64px; padding-top: 80px; padding-left: 12px; }
+.section6 h1 { font-size: 74px; text-align:center; color: #5d4f3d; text-transform: uppercase; line-height: 64px; padding-top: 80px; padding-left: 12px; }
 .section6 h4 { font-size: 20px; color: #5d4f3d; margin-bottom: 4px; font-family: 'gearedslab'; text-transform: uppercase; }
 .section6 p { font-family: 'gearedslab-light'; font-size: 19px; color: #5d4f3d;  }
 .section6 .button { display: block; color: #FFF; background-color: #5d4f3d; font-size: 21px; font-family: 'gearedslab'; padding: 4px 0px 2px; margin: 8px 0px; text-align: center; text-transform: uppercase; text-decoration: none; border-radius: 4px; border-top: 2px solid #6b5e4e; border-right: 2px solid #6b5e4e; border-bottom: 2px solid #565246; border-left: 2px solid #565246; }
@@ -117,12 +117,13 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .section6 .left { display: inline-block; margin-right: -4px; width: 50%; padding: 4px 24px 0px 12px; }
 .section6 .left img { margin-top: 16px; padding-right: 24px; }
 .section6 .left img.right-divider { border-right: 1px solid rgba(0,0,0,0.5); }
-.section6 .right { display: inline-block; width: 50%; vertical-align: top; padding: 56px 80px 0px; text-align: left; }
+.section6 .right { display: inline-block; width: 50%; vertical-align: top; padding: 0px 80px 0px; margin-top: 56px; text-align: left; border-left: 1px solid rgba(0,0,0,0.25);  }
 .section6 .right a { display: block;  margin-bottom: 16px; }
 .section6 .right a:hover { cursor: pointer; }
 
 .center-block { margin: 0px auto; }
-.left-block { margin: 0 left;}
+.left-block { margin: 0 left; }
+.right-block { margin: 0px 0px 0px auto; display: block; }
 @media(max-width:1370px){  }
 @media(max-width:960px){  }
 @media(max-width:800px){  }
