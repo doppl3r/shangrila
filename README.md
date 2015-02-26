@@ -9,4 +9,4 @@ Final Version: [Shangri La Website](https://rawgit.com/doppl3r/shangrila/master/
   - Links to old website
 
 
-![alt text](https://github.com/doppl3r/shangrila/blob/master/img/reference.jpg "Logo Title Text 1")
+![alt text](https://github.com/doppl3r/shangrila/blob/master/gallery/img/reference.jpg "reference image")
