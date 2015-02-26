@@ -47,7 +47,7 @@ body { background-color: transparent; font-family: 'lincoln'; }
 
 .section2 { position: relative; }
 .section2 .owl-carousel .item { height: 536px; }
-.section2 .owl-carousel .item > img { position: absolute; top: 0px; left: 0px; z-index: -1; }
+.section2 .owl-carousel .item > img {  }
 .section2 .full-width {width: 100%;}
 .section2 h1 { font-size: 88px; color: #FFF; text-transform: uppercase; line-height: 64px; margin: 112px 0px 32px; text-shadow: 0px 0px 50px #000 }
 .section2 p { font-size: 19px; color: #5d4f3d; font-family: 'gearedslab-light'; margin-bottom: 24px; }
