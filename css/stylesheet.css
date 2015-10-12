@@ -1,6 +1,6 @@
 
 html { background-color: #d6d3b8; }
-body { background-color: transparent; font-family: 'lincoln'; }
+body { background-color: transparent; font-family: 'lincoln';  }
 
 .wrapper { width: 960px; margin: 0px auto; }
 .wrapper-bigger { width: 1366px; margin-left: -204px; } /*this will allow larger content to be pushed off when smaller*/
@@ -18,9 +18,11 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .nav #item2 { left: 348px; }
 .nav #item3 { left: 480px; }
 .nav #logo { top: 0px; left: 600px; height: 80px; width: 160px; display: inline-block; }
-.nav #item4 { left: 860px; }
-.nav #item5 { left: 960px; }
-.nav #item6 { left: 1080px; }
+.nav #item4 { left: 830px; }
+.nav #item5 { left: 966px; }
+.nav #item6 { left: 1072px; }
+
+.header .owl-carousel { padding-top: 52px; }
 
 .owl-carousel.one .owl-prev { position: absolute; left: 212px; top: 230px; background-image: url('../img/left-arrow.png'); width:33px; height:68px; opacity: .75; }
 .owl-carousel.one .owl-next { position: absolute; left: 1136px; top: 230px; background-image: url('../img/right-arrow.png'); width:33px; height:68px; opacity: .75; }
@@ -36,6 +38,10 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .section1 .left { display: inline-block; margin-right: -4px; width: 50%; padding-left: 12px; padding-right: 24px; }
 .section1 .right { display: inline-block; width: 50%; vertical-align: top; padding-right: 12px; padding-left: 24px; text-align: center; }
 .section1 .right > img { margin: 64px 0px 12px; }
+.section1 .link:nth-of-type(1) { width: 120px; height: 120px; position:absolute; top: 58px; left: 714px; }
+.section1 .link:nth-of-type(2) { width: 120px; height: 120px; position:absolute; top: 58px; left: 866px; }
+.section1 .link:nth-of-type(3) { width: 120px; height: 120px; position:absolute; top: 58px; left: 1012px; }
+.section1 .link:hover { background-color: rgba(0,0,0,0.1); border-radius: 8px; }
 .owl-carousel.two .owl-stage-outer { border-radius: 7px; }
 .owl-carousel.two .owl-prev { position: absolute; left: 12px; top: 130px; background-image: url('../img/left-arrow-small.png'); width:20px; height:41px; }
 .owl-carousel.two .owl-next { position: absolute; right: 12px; top: 130px; background-image: url('../img/right-arrow-small.png'); width:20px; height:41px; }
@@ -67,6 +73,7 @@ body { background-color: transparent; font-family: 'lincoln'; }
 .section3 h1 { font-size: 88px; color: #5d4f3d; text-transform: uppercase; line-height: 64px; margin-top: 64px; }
 .section3 h4 { font-size: 34px; color: #5d4f3d; margin-bottom: 16px; }
 .section3 ul { font-family: 'gearedslab-light'; font-size: 19px; color: #5d4f3d; padding: 18px 0px 24px 18px; }
+.section3 ul a { color: #912607; font-weight: bold; }
 .section3 .button { display: block; color: #FFF; background-color: #5d4f3d; font-size: 21px; font-family: 'gearedslab'; padding: 8px 0px 4px; text-align: center; text-transform: uppercase; text-decoration: none; border-radius: 4px; border-top: 2px solid #6b5e4e; border-right: 2px solid #6b5e4e; border-bottom: 2px solid #565246; border-left: 2px solid #565246; }
 .section3 .button:hover { opacity: 0.5; }
 .section3 .left { display: inline-block; margin-right: -4px; width: 50%; padding-left: 12px; }
