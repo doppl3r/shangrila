@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
 		<link rel="stylesheet" href="css/owl.carousel.css" media="screen">
+		<link rel="stylesheet" href="css/magnific-popup.css" media="screen">
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
 	</head>
@@ -101,7 +102,8 @@
 				<!--header-->
 				<div class="header">
 					<div class="owl-carousel one">
-						<div class="item"><img src="img/slide1.jpg"/></div>
+                        <div class="item"><a class="popup-youtube" href="http://www.youtube.com/watch?v=sMxy4NF0AIY"><img src="img/slide6.jpg"/></a></div>
+                        <div class="item"><img src="img/slide1.jpg"/></div>
 						<div class="item"><img src="img/slide2.jpg"/></div>
 						<div class="item"><img src="img/slide3.jpg"/></div>
 						<div class="item"><img src="img/slide4.jpg"/></div>
@@ -263,11 +265,13 @@
 		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/magnific-popup.js"></script>
 		<script>
 			$('.owl-carousel.one').owlCarousel({ loop:true, margin:10, nav:true, navText:["",""], items:1, margin:0, autoplay:true, autoplaySpeed: 2500, autoplayTimeout: 8500 });
 			$('.owl-carousel.two').owlCarousel({ loop:true, margin:10, nav:true, navText:["",""], items:1, margin:0, autoplay:true, autoplaySpeed: 2500, autoplayTimeout: 6000 });
 			$('.owl-carousel.three').owlCarousel({ loop:true, margin:10, nav:true, navText:["",""], items:1, margin:0, autoplay:true, autoplaySpeed: 2500, autoplayTimeout: 8500 });
 			$('.owl-carousel.four').owlCarousel({ loop:true, margin:10, nav:true, navText:["",""], items:1, margin:0, autoplay:true, autoplaySpeed: 2500, autoplayTimeout: 6000 });
+            $(document).ready(function() { $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({ type: 'iframe',	mainClass: 'mfp-fade', removalDelay: 160, preloader: false, fixedContentPos: false});});
 		</script>
 	</body>
 </html>
