@@ -4,7 +4,7 @@ body { background-color: transparent; font-family: 'lincoln';  }
 
 .wrapper { width: 960px; margin: 0px auto; }
 .wrapper-bigger { width: 1366px; margin-left: -204px; } /*this will allow larger content to be pushed off when smaller*/
-.nav { position: absolute; z-index:99999; text-align: center; }
+.nav { position: absolute; z-index:2; text-align: center; }
 .nav > div { position: absolute; font-size: 22px; color: #5d4f3d; text-transform: uppercase; top: 20px; white-space: nowrap; padding: 0px; }
 .nav > div > ul { display: none; background-color: #dedbbe; padding: 8px; border-radius: 10px; position: absolute; top: 36px; left: -24px; list-style: none; box-shadow: 0px 5px 5px rgba(0,0,0,0.25); min-width: 160px; font-family: gearedslab-light; background: -webkit-linear-gradient(top, #c2bca2 0%,#dedabf 20%);}
 .nav > div:hover > ul { display: block; }
@@ -127,12 +127,7 @@ body { background-color: transparent; font-family: 'lincoln';  }
 /**
  * Simple fade transition,
  */
-.mfp-fade.mfp-bg { opacity: 0; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
-.mfp-fade.mfp-bg.mfp-ready { opacity: 0.8; }
-.mfp-fade.mfp-bg.mfp-removing { opacity: 0; }
-.mfp-fade.mfp-wrap .mfp-content { opacity: 0; -webkit-transition: all 0.15s ease-out; -moz-transition: all 0.15s ease-out; transition: all 0.15s ease-out; }
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content {	opacity: 1; }
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content { opacity: 0; }
+.mfp-close { font-size: 64px; }
 
 @media(max-width:1370px){  }
 @media(max-width:960px){  }
